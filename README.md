@@ -16,7 +16,7 @@ The purpose of this analysis was to use the dataset from LendingClub to oversamp
 - Precision: There was a Precision score of 0.01 for high risk and 1.00 for low risk. This means that the model does a great job at accurately predicting low credit risk but not high credit risk. Of the 6255 classified as high credit card risks 6193 were actually low credit card risks. Meaning a lot of people were predicted as having being high credit risks when in reality they were low credit risks.
 - Recall: The model had a recall (or sensitvity) of 0.61 for high risk and 0.64 for low risk. This means that the model doesnt really do a good job at finding all the high and low credit risk.
 ### Undersampling 
-![cluster_centroids](https://github.com/Cmarescot/Credit_Risk_Analysis/blob/main/images/cluster_centroids).png)
+![cluster_centroids](https://github.com/Cmarescot/Credit_Risk_Analysis/blob/main/images/cluster_centroids.png)
 - Balanced accuracy score: The model has a very low accuracy 0.519.
 - Precision: There was a Precision score of 0.01 for high risk and 1.00 for low risk. This means that the model does a great job at accurately predicting low credit risk but not high credit risk. Of the 9199 classified as high credit card risks 9108 were actually low credit card risks. Meaning a lot of people were predicted as having being high credit risks when in reality they were low credit risks.
 - Recall: The model had a recall (or sensitvity) of 0.57 for high risk 0.46 for low risk. This means that the model doesnt do a good job at finding all the high and low credit risk.
